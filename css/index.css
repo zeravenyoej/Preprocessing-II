@@ -170,9 +170,12 @@ img {
 }
 .navContainer {
   border-bottom: 2px dashed #C0C0C0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 .navContainer nav {
-  margin: 0 auto;
+  width: 82%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -257,8 +260,8 @@ img {
   margin-bottom: 30px;
 }
 .home .content-pick .destination .btn {
-  color: white;
-  background: #008B8B;
+  color: #212529;
+  background: #17A2B8;
   padding: 5% 1%;
   width: 80%;
   border-radius: 12px;
