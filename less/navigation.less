@@ -7,17 +7,28 @@
     justify-content: center;
 
         nav {
-            width: 82%;
+            width: 62%;
             display: flex;
             justify-content: space-between;
             align-items: center;
             padding: 2.3% 0;
 
+            @media @mobile {
+                display: flex;
+                flex-direction: column;
+                width: 80%;
+            }
 
                 .links {
                     width:48%;
                     display: flex;
                     justify-content: space-evenly;
+
+                    @media @mobile {
+                        width: 100%;
+                        justify-content: space-between;
+                        padding-top: 2%;
+                    }
                     
                         a {
                             text-decoration: none;
@@ -28,3 +39,4 @@
             }
     }
 }
+
